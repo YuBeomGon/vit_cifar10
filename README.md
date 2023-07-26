@@ -58,4 +58,3 @@ further
 3. use layer scale(cait)
 4. loss ft tuning for cat
 
-
