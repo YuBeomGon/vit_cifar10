@@ -14,7 +14,11 @@ https://github.com/YuBeomGon/vit_cifar10/blob/master/notebooks/vit-scratch-s4.ip
 vit test result with patch size 32, v2 training
 
 regard v2, 
-![new training method](./example/new_training_method.png)
+
+![new training method](example/plane.jpeg)
+
+![Figure 1 from paper](example/dog_cat.png)
+
 
 https://pytorch.org/blog/how-to-train-state-of-the-art-models-using-torchvision-latest-primitives/
 
@@ -26,9 +30,16 @@ https://github.com/YuBeomGon/vit_cifar10/blob/master/notebooks/vit-scratch-v2.ip
 
 confusion matrix
 
+![](example/cifar_confusion_mat.png)
+
 
 ****
 
 attn map visualize
+
+![](example/attn_map_plane.png.png)
+
+
+
 
 
