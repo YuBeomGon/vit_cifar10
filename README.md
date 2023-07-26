@@ -14,7 +14,7 @@ https://github.com/YuBeomGon/vit_cifar10/blob/master/notebooks/vit-scratch-s4.ip
 vit test result with patch size 32, v2 training
 
 regard v2, 
-
+![Alt text](./example/new_training_method.png)
 https://pytorch.org/blog/how-to-train-state-of-the-art-models-using-torchvision-latest-primitives/
 
 acc : 88.0
