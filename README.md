@@ -56,5 +56,6 @@ further
 1. Use RoRA, adapter like big model fine tuning scheme
 2. Deit, knowledge distillation(from big model to tiny model knowledge transfer)
 3. use layer scale(cait)
+4. loss ft tuning for cat
 
 
