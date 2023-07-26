@@ -43,7 +43,7 @@ class PatchEmbed(nn.Module):
         
     def forward(self, x):
         if self.roll:
-            h_shift, w_shift = np.random.randint(0,self.patch_size, size=2)
+            h_shift, w_shift = np.random.randint(0,self.patch_size[0]//2, size=2)
             x = torch.roll(x, shifts=(h_shift, w_shift), dims=(2,3))
         
         B, C, H, W = x.shape
