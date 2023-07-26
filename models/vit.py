@@ -326,8 +326,8 @@ class VisionTransformer(nn.Module):
             prev_state_dict['pos_embed'] = self.resize_pos_embed(prev_state_dict['pos_embed'], self.pos_embed.shape)
         
         self.load_state_dict(prev_state_dict, strict=False)
-        for name, param in self.named_parameters():
-            param.requires_grad = True
+        # for name, param in self.named_parameters():
+        #     param.requires_grad = True
     
     def _init_weights(self, m):
         if isinstance(m, nn.Linear):
